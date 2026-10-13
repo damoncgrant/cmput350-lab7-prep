@@ -1,4 +1,4 @@
-2a. 
-2b. 
-2c. 
-2d. 
+2a. forward<Arg1>(arg1), forward<Arg2>(arg2), ..., forward<ArgN>(argN)
+2b. (f(arg1) + 1), (f(arg2) + 1), ..., (f(argN) + 1)
+2c. std::tuple<Arg1, Arg2, ..., ArgN>
+2d. std::tuple<std::vector<Arg1>, std::vector<Arg2>, ..., std::vector<ArgN>>

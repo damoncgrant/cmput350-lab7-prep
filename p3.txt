@@ -1,7 +1,19 @@
 Hash table:
+- Higher memory cost due to having a node for every entry
+- O(1) lookup due to hashing
+- O(1) for inserting, or deleting
 
 Map:
+- More memory cost since each entry has 3 pointers, a value, and a red/black bit
+- O(logN) lookup -> binary search tree
+- Maintinence
 
 Sparse mapping 1:
+- Memory cost is just N * K
+- O(1) lookup, good for caching
+- Adding a single entry creates a new row full of -1 entries
 
 Sparse mapping 2:
+- Memory cost is N * K
+- O(1) lookup as well
+- Adding a single entry needs to grow each vector by 1
